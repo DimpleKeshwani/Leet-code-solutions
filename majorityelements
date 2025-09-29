@@ -1,0 +1,54 @@
+#include <vector>
+#include <iostream>
+#include <algorithm>
+
+class Solution {
+public:
+    /**
+     * Finds the majority element using the Boyer-Moore Voting Algorithm.
+     * The majority element is guaranteed to exist.
+     * * Time Complexity: O(n) - Single pass through the array.
+     * Space Complexity: O(1) - Only two variables (candidate, count) are used.
+     * * @param nums The input array.
+     * @return The majority element.
+     */
+    int majorityElement(std::vector<int>& nums) {
+        int candidate = 0;
+        int count = 0;
+        
+        // Boyer-Moore Voting Algorithm
+        for (int num : nums) {
+            // If count is 0, a new candidate starts
+            if (count == 0) {
+                candidate = num;
+                count = 1;
+            } 
+            // If the current element is the candidate, increment count
+            else if (num == candidate) {
+                count++;
+            } 
+            // If the current element is different, decrement count
+            else {
+                count--;
+            }
+        }
+        
+        // Since the problem guarantees the majority element always exists, 
+        // the final candidate is the answer.
+        return candidate;
+    }
+};
+
+/*
+// Example Usage (Optional)
+int main() {
+    Solution s;
+    std::vector<int> nums1 = {3, 2, 3};
+    std::cout << "Example 1: " << s.majorityElement(nums1) << std::endl; // Output: 3
+
+    std::vector<int> nums2 = {2, 2, 1, 1, 1, 2, 2};
+    std::cout << "Example 2: " << s.majorityElement(nums2) << std::endl; // Output: 2
+
+    return 0;
+}
+*/
