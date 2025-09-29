@@ -1,0 +1,15 @@
+class Solution {
+public:
+    vector<int> intersection(vector<int>& a, vector<int>& b) {
+        unordered_set<int> st(a.begin(), a.end());
+        vector<int> ans;
+
+        for (int num : b) {
+            if (st.find(num) != st.end()) {
+                ans.push_back(num);
+                st.erase(num); // avoid duplicates
+            }
+        }
+        return ans;
+    }
+}; 
