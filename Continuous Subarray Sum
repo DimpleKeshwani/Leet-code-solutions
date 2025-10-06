@@ -1,0 +1,23 @@
+#include <vector>        
+#include <unordered_map> 
+class Solution {
+public:
+    bool checkSubarraySum(std::vector<int>& nums, int k) {  
+        std::unordered_map<int, int> remainder_map;  
+        remainder_map[0] = -1;
+        long long current_sum = 0;
+        for (int i = 0; i < nums.size(); ++i) {
+            current_sum += nums[i];     
+            int remainder = current_sum % k;
+            if (remainder_map.count(remainder)) {
+                int prev_idx = remainder_map[remainder];
+                if (i - prev_idx >= 2) {
+                    return true; 
+                }
+            } else {
+                remainder_map[remainder] = i;
+            }
+        }
+        return false;
+    }
+};
