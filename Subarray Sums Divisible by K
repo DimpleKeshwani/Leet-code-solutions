@@ -1,0 +1,45 @@
+#include <vector>
+#include <unordered_map>
+
+class Solution {
+public:
+    int subarraysDivByK(std::vector<int>& nums, int k) {
+        int count = 0;
+        int current_sum = 0;
+        // remainder_counts stores the frequency of each remainder modulo k.
+        // Key: remainder (current_sum % k)
+        // Value: frequency of that remainder
+        std::unordered_map<int, int> remainder_counts;
+
+        // Initialize with a remainder of 0 having a count of 1.
+        // This handles subarrays that start from index 0 and whose sum is divisible by k.
+        // For example, if current_sum % k == 0, then current_sum - 0 is divisible by k.
+        // The "0" corresponds to the prefix sum before the array starts (at an imaginary index -1).
+        remainder_counts[0] = 1;
+
+        for (int num : nums) {
+            current_sum += num;
+
+            // Calculate the remainder.
+            // In C++, the % operator can yield a negative result if current_sum is negative.
+            // To ensure the remainder is always in the range [0, k-1], we use (current_sum % k + k) % k.
+            int remainder = current_sum % k;
+            if (remainder < 0) {
+                remainder += k;
+            }
+
+            // If this remainder has been seen before, it means there are
+            // remainder_counts[remainder] previous prefix sums that also had this same remainder.
+            // Each of these previous occurrences forms a subarray ending at the current position
+            // whose sum is divisible by k.
+            if (remainder_counts.count(remainder)) {
+                count += remainder_counts[remainder];
+            }
+
+            // Increment the frequency for the current remainder.
+            remainder_counts[remainder]++;
+        }
+
+        return count;
+    }
+};
