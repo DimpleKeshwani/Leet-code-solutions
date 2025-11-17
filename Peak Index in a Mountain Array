@@ -1,0 +1,22 @@
+class Solution {
+public:
+    int peakIndexInMountainArray(vector<int>& arr) {
+        int left = 0, right = arr.size() - 1;
+
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+
+            // If mid element is less than next element, peak lies on right side
+            if (arr[mid] < arr[mid + 1]) {
+                left = mid + 1;
+            }
+            // Otherwise peak lies on left including mid
+            else {
+                right = mid;
+            }
+        }
+
+        // left == right is the peak index
+        return left;
+    }
+};
