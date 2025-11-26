@@ -1,0 +1,18 @@
+ class Solution 
+{
+public:
+    string reverseOnlyLetters(string s) 
+    {
+        int left = 0, right = s.size() - 1;
+        while (left < right)
+        {
+            if (!isalpha(s[left])) //is char? no (left ptr)
+                left++; //move to next
+            else if (!isalpha(s[right])) //is char? no (right ptr)
+                right--; //move to next
+            else //is char? yes (swap)
+                swap(s[left++], s[right--]);
+        }
+        return s;
+    }
+};
