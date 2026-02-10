@@ -1,0 +1,37 @@
+#include <vector>
+#include <algorithm>
+#include <unordered_set>
+#include <unordered_map>
+
+using namespace std;
+
+class Solution {
+public:
+    int numFactoredBinaryTrees(vector<int>& arr) {
+        const int mod = 1e9 + 7;
+        sort(arr.begin(), arr.end());
+        unordered_set<int> s(arr.begin(), arr.end());
+        unordered_map<int, int> dp;
+        int total = 0;
+        
+        for (int i = 0; i < arr.size(); i++) {
+            dp[arr[i]] = 1;
+            for (int j = 0; j < i; j++) {
+                int a = arr[j];
+                if (a > arr[i] / a) break;
+                if (arr[i] % a == 0) {
+                    int b = arr[i] / a;
+                    if (s.find(b) != s.end()) {
+                        if (a == b) {
+                            dp[arr[i]] = (dp[arr[i]] + (long long)dp[a] * dp[b]) % mod;
+                        } else {
+                            dp[arr[i]] = (dp[arr[i]] + 2LL * dp[a] * dp[b]) % mod;
+                        }
+                    }
+                }
+            }
+            total = (total + dp[arr[i]]) % mod;
+        }
+        return total;
+    }
+};
