@@ -1,0 +1,35 @@
+class Solution {
+    public int compress(char[] chars) {
+        int n = chars.length;
+        int idx = 0;
+
+        for (int i = 0; i < n; i++) {
+            char ch = chars[i];
+            int count = 0;
+
+            // Count consecutive occurrences of the same character
+            while (i < n && chars[i] == ch) {
+                count++;
+                i++;
+            }
+
+            // Case 1: count == 1 → just write the character
+            if (count == 1) {
+                chars[idx++] = ch;
+            } 
+            // Case 2: count > 1 → write character + count digits
+            else {
+                chars[idx++] = ch;
+                String str = String.valueOf(count);
+                for (char dig : str.toCharArray()) {
+                    chars[idx++] = dig;
+                }
+            }
+
+           
+            i--;
+        }
+
+        return idx; 
+    }
+}
