@@ -1,0 +1,6 @@
+class Solution {
+    public boolean rotateString(String s, String goal) {
+        // It's true if lengths match AND 'goal' is a substring of 's + s'
+        return s.length() == goal.length() && (s + s).contains(goal);
+    }
+}
