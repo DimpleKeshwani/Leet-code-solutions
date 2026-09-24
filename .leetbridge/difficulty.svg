@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="360" height="345" viewBox="0 0 360 345" role="img" aria-labelledby="title desc">
 <title id="title">Solved problems by difficulty</title>
-<desc id="desc">1 easy, 0 medium, 4 hard. Open the LeetCode profile.</desc>
+<desc id="desc">1 easy, 0 medium, 5 hard. Open the LeetCode profile.</desc>
 <defs>
 <linearGradient id="accent" x1="0" x2="1"><stop stop-color="#ff2e88"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
 <clipPath id="bar"><rect x="32" y="82" width="296" height="8" rx="4"/></clipPath>
@@ -18,9 +18,9 @@
 <rect x="1" y="1" width="358" height="343" rx="12" fill="#141321" stroke="#30363d"/>
 <rect x="1" y="1" width="358" height="4" rx="2" fill="url(#accent)"/>
 <text x="32" y="45" class="heading">Difficulty</text>
-<path d="M 112 166 L 112.00 98.00 A 68 68 0 0 1 176.67 144.99 Z" fill="#00b8a3"/><path d="M 112 166 L 176.67 144.99 A 68 68 0 1 1 112.00 98.00 Z" fill="#ef4743"/>
+<path d="M 112 166 L 112.00 98.00 A 68 68 0 0 1 170.89 132.00 Z" fill="#00b8a3"/><path d="M 112 166 L 170.89 132.00 A 68 68 0 1 1 112.00 98.00 Z" fill="#ef4743"/>
 <circle cx="112" cy="166" r="34" fill="#141321"/>
-<circle cx="216" cy="121" r="7" fill="#00b8a3"/><text x="232" y="126" class="metric">Easy</text><text x="328" y="126" class="count" text-anchor="end">20%</text>
-<circle cx="216" cy="163" r="7" fill="#ef4743"/><text x="232" y="168" class="metric">Hard</text><text x="328" y="168" class="count" text-anchor="end">80%</text>
+<circle cx="216" cy="121" r="7" fill="#00b8a3"/><text x="232" y="126" class="metric">Easy</text><text x="328" y="126" class="count" text-anchor="end">17%</text>
+<circle cx="216" cy="163" r="7" fill="#ef4743"/><text x="232" y="168" class="metric">Hard</text><text x="328" y="168" class="count" text-anchor="end">83%</text>
 <text x="328" y="326" class="link" text-anchor="end">View profile ↗</text>
 </svg>
