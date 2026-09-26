@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="360" height="345" viewBox="0 0 360 345" role="img" aria-labelledby="title desc">
 <title id="title">Solved problems by difficulty</title>
-<desc id="desc">1 easy, 0 medium, 8 hard. Open the LeetCode profile.</desc>
+<desc id="desc">1 easy, 1 medium, 8 hard. Open the LeetCode profile.</desc>
 <defs>
 <linearGradient id="accent" x1="0" x2="1"><stop stop-color="#ff2e88"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
 <clipPath id="bar"><rect x="32" y="82" width="296" height="8" rx="4"/></clipPath>
@@ -18,9 +18,10 @@
 <rect x="1" y="1" width="358" height="343" rx="12" fill="#141321" stroke="#30363d"/>
 <rect x="1" y="1" width="358" height="4" rx="2" fill="url(#accent)"/>
 <text x="32" y="45" class="heading">Difficulty</text>
-<path d="M 112 166 L 112.00 98.00 A 68 68 0 0 1 155.71 113.91 Z" fill="#00b8a3"/><path d="M 112 166 L 155.71 113.91 A 68 68 0 1 1 112.00 98.00 Z" fill="#ef4743"/>
+<path d="M 112 166 L 112.00 98.00 A 68 68 0 0 1 151.97 110.99 Z" fill="#00b8a3"/><path d="M 112 166 L 151.97 110.99 A 68 68 0 0 1 176.67 144.99 Z" fill="#ffc01e"/><path d="M 112 166 L 176.67 144.99 A 68 68 0 1 1 112.00 98.00 Z" fill="#ef4743"/>
 <circle cx="112" cy="166" r="34" fill="#141321"/>
-<circle cx="216" cy="121" r="7" fill="#00b8a3"/><text x="232" y="126" class="metric">Easy</text><text x="328" y="126" class="count" text-anchor="end">11%</text>
-<circle cx="216" cy="163" r="7" fill="#ef4743"/><text x="232" y="168" class="metric">Hard</text><text x="328" y="168" class="count" text-anchor="end">89%</text>
+<circle cx="216" cy="121" r="7" fill="#00b8a3"/><text x="232" y="126" class="metric">Easy</text><text x="328" y="126" class="count" text-anchor="end">10%</text>
+<circle cx="216" cy="163" r="7" fill="#ffc01e"/><text x="232" y="168" class="metric">Medium</text><text x="328" y="168" class="count" text-anchor="end">10%</text>
+<circle cx="216" cy="205" r="7" fill="#ef4743"/><text x="232" y="210" class="metric">Hard</text><text x="328" y="210" class="count" text-anchor="end">80%</text>
 <text x="328" y="326" class="link" text-anchor="end">View profile ↗</text>
 </svg>
