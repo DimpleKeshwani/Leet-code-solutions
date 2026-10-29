@@ -5,13 +5,13 @@ A collection of accepted LeetCode solutions automatically synced by LeetBridge.
 <!-- SOLUTIONS_START -->
 
 <p align="center">
-<a href="#solution-archive"><img src=".leetbridge/progress.svg" alt="26 solved: 6 Easy, 9 Medium, 11 Hard" width="33.333%"></a><a href="https://github.com/DimpleKeshwani/Leet-code-solutions/search?q=language%3AJava&amp;type=code"><img src=".leetbridge/languages.svg" alt="Solution languages" width="33.333%"></a><a href="https://leetcode.com/u/Dimplekeshwani/"><img src=".leetbridge/difficulty.svg" alt="Difficulty breakdown" width="33.333%"></a>
+<a href="#solution-archive"><img src=".leetbridge/progress.svg" alt="27 solved: 6 Easy, 9 Medium, 12 Hard" width="33.333%"></a><a href="https://github.com/DimpleKeshwani/Leet-code-solutions/search?q=language%3AJava&amp;type=code"><img src=".leetbridge/languages.svg" alt="Solution languages" width="33.333%"></a><a href="https://leetcode.com/u/Dimplekeshwani/"><img src=".leetbridge/difficulty.svg" alt="Difficulty breakdown" width="33.333%"></a>
 </p>
 
 <!-- LEETBRIDGE_ARCHIVE_CELLS_V3 -->
 <a name="solution-archive"></a>
 <p align="center"><picture>
-<img src=".leetbridge/archive/header.svg?v=3" alt="Solution Archive: 26 accepted problems synced by LeetBridge" width="100%">
+<img src=".leetbridge/archive/header.svg?v=3" alt="Solution Archive: 27 accepted problems synced by LeetBridge" width="100%">
 </picture></p>
 <table align="center" width="100%">
 <tbody>
@@ -40,6 +40,7 @@ A collection of accepted LeetCode solutions automatically synced by LeetBridge.
 <tr><td width="53%"><a href="https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/"><img src=".leetbridge/archive/problems/1807-evaluate-the-bracket-pairs-of-a-string.svg?v=3" alt="1807 · Evaluate the Bracket Pairs of a String" width="100%"></a></td><td width="17%"><picture><img src=".leetbridge/archive/difficulties/medium.svg?v=3" alt="Medium" width="100%"></picture></td><td width="30%"><a href="1807-evaluate-the-bracket-pairs-of-a-string/solution.java"><img src=".leetbridge/archive/languages/java-6eff4c85.svg?v=3" alt="Java" width="100%"></a></td></tr>
 <tr><td width="53%"><a href="https://leetcode.com/problems/check-if-there-is-a-valid-parentheses-string-path/"><img src=".leetbridge/archive/problems/2267-check-if-there-is-a-valid-parentheses-string-path.svg?v=3" alt="2267 · Check if There Is a Valid Parentheses String Path" width="100%"></a></td><td width="17%"><picture><img src=".leetbridge/archive/difficulties/hard.svg?v=3" alt="Hard" width="100%"></picture></td><td width="30%"><a href="2267-check-if-there-is-a-valid-parentheses-string-path/solution.java"><img src=".leetbridge/archive/languages/java-6eff4c85.svg?v=3" alt="Java" width="100%"></a></td></tr>
 <tr><td width="53%"><a href="https://leetcode.com/problems/smallest-index-with-digit-sum-equal-to-index/"><img src=".leetbridge/archive/problems/3550-smallest-index-with-digit-sum-equal-to-index.svg?v=3" alt="3550 · Smallest Index With Digit Sum Equal to Index" width="100%"></a></td><td width="17%"><picture><img src=".leetbridge/archive/difficulties/easy.svg?v=3" alt="Easy" width="100%"></picture></td><td width="30%"><a href="3550-smallest-index-with-digit-sum-equal-to-index/solution.java"><img src=".leetbridge/archive/languages/java-6eff4c85.svg?v=3" alt="Java" width="100%"></a></td></tr>
+<tr><td width="53%"><a href="https://leetcode.com/problems/palindromic-path-queries-in-a-tree/"><img src=".leetbridge/archive/problems/3841-palindromic-path-queries-in-a-tree.svg?v=3" alt="3841 · Palindromic Path Queries in a Tree" width="100%"></a></td><td width="17%"><picture><img src=".leetbridge/archive/difficulties/hard.svg?v=3" alt="Hard" width="100%"></picture></td><td width="30%"><a href="3841-palindromic-path-queries-in-a-tree/solution.java"><img src=".leetbridge/archive/languages/java-6eff4c85.svg?v=3" alt="Java" width="100%"></a></td></tr>
 <tr><td width="53%"><a href="https://leetcode.com/problems/minimum-xor-path-in-a-grid/"><img src=".leetbridge/archive/problems/3882-minimum-xor-path-in-a-grid.svg?v=3" alt="3882 · Minimum XOR Path in a Grid" width="100%"></a></td><td width="17%"><picture><img src=".leetbridge/archive/difficulties/medium.svg?v=3" alt="Medium" width="100%"></picture></td><td width="30%"><a href="3882-minimum-xor-path-in-a-grid/solution.java"><img src=".leetbridge/archive/languages/java-6eff4c85.svg?v=3" alt="Java" width="100%"></a></td></tr>
 </tbody>
 </table>
