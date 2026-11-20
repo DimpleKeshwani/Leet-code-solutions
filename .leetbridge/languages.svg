@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="360" height="345" viewBox="0 0 360 345" role="img" aria-labelledby="title desc">
-<title id="title">49 solutions by language</title>
+<title id="title">50 solutions by language</title>
 <desc id="desc">Java is the most-used solution language.</desc>
 <defs>
 <linearGradient id="accent" x1="0" x2="1"><stop stop-color="#ff2e88"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
@@ -19,8 +19,8 @@
 <rect x="1" y="1" width="358" height="4" rx="2" fill="url(#accent)"/>
 <text x="32" y="45" class="heading">Languages</text>
 <rect x="32" y="82" width="296" height="8" rx="4" fill="#262438"/>
-<g clip-path="url(#bar)"><rect x="32" y="82" width="283.9" height="8" fill="#f89820"/><rect x="315.9" y="82" width="12.100000000000023" height="8" fill="#f34b7d"/></g>
-<circle cx="38" cy="123" r="7" fill="#f89820"/><text x="54" y="128" class="metric">Java</text><text x="328" y="128" class="count" text-anchor="end">47</text>
+<g clip-path="url(#bar)"><rect x="32" y="82" width="284.2" height="8" fill="#f89820"/><rect x="316.2" y="82" width="11.800000000000011" height="8" fill="#f34b7d"/></g>
+<circle cx="38" cy="123" r="7" fill="#f89820"/><text x="54" y="128" class="metric">Java</text><text x="328" y="128" class="count" text-anchor="end">48</text>
 <circle cx="38" cy="163" r="7" fill="#f34b7d"/><text x="54" y="168" class="metric">C++</text><text x="328" y="168" class="count" text-anchor="end">2</text>
 <text x="328" y="326" class="link" text-anchor="end">Browse languages ↗</text>
 </svg>
